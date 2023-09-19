@@ -1,0 +1,13 @@
+@use "../../styles/partials/variables";
+
+img {
+  width: 13rem;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px variables.$color-tan;
+
+  &:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px variables.$color-tan;
+  }
+}
