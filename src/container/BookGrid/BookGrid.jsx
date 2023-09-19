@@ -1,27 +1,28 @@
-// import { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
+import googleBooks from "../../data/api";
 
 import BookCard from "../../components/BookCard/BookCard";
 
 import styles from "./BookGrid.module.scss";
 
-const BookGrid = () => {
-//   const [books, setBooks] = useState("");
+const BookGrid = ({ inputData }) => {
+  const [books, setBooks] = useState("");
 
-//   const googleBooks = async (url) => {
-//     const response = await fetch(url);
-//     if (!response.ok) {
-//       throw new Error("Something Went Wrong");
-//     }
-//     const data = await response.json();
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const fetchedBooks = await googleBooks(
+          `https://www.googleapis.com/books/v1/volumes?q=intitle:${inputData}+OR+inauthor:${inputData}&maxResults=20`
+        );
+        console.log(fetchedBooks);
+        setBooks(fetchedBooks);
+      } catch (error) {
+        console.log(error);
+      }
+    };
 
-//     setBooks(data.items);
-//   };
-
-//   useEffect(() => {
-//     googleBooks("https://www.googleapis.com/books/v1/volumes?q=woman");
-//   }, []);
-
-//   console.log(books);
+    fetchData();
+  }, []);
 
   return (
     <section className={styles["books-display"]}>
@@ -29,7 +30,7 @@ const BookGrid = () => {
         books.map((data) => (
           <BookCard
             key={data.id}
-            imageUrl={data.volumeInfo.imageLinks.thumbnail}
+            imageUrl={data.volumeInfo?.imageLinks?.thumbnail}
           />
         ))}
     </section>

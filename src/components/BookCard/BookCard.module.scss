@@ -1,13 +1,15 @@
 @use "../../styles/partials/variables";
 
 img {
-  width: 13rem;
+    object-fit: cover;
+  width: 11rem;
+  height: 15rem;
   border-radius: 5px;
-  box-shadow: 3px 3px 5px variables.$color-tan;
+  box-shadow: 3px 3px 3px 3px black;
 
   &:hover {
     transform: scale(1.01);
     cursor: pointer;
-    box-shadow: 5px 5px 5px variables.$color-tan;
+    box-shadow: 10px 10px 8px black;
   }
 }
