@@ -12,4 +12,31 @@
     cursor: pointer;
     box-shadow: 10px 10px 8px black;
   }
+
+  &--noImage {
+    display: none;
+  }
+}
+
+.noImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 11rem;
+  height: 15rem;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px black;
+  background-color: variables.$color-charcoal;
+
+  &:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+    box-shadow: 10px 10px 8px black;
+  }
+
+  &__icon {
+    width: 4rem;
+    opacity: .4;
+  }
 }

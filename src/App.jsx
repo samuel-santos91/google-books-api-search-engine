@@ -15,7 +15,7 @@ function App() {
     <>
       {!inputValue && <Header />}
       {!inputValue && <SearchBar onSearchBar={submitHandler} />}
-      {inputValue && <BookGrid inputData={inputValue} />}
+      {inputValue && <BookGrid onGrid={setInputValue} inputData={inputValue} />}
     </>
   );
 }

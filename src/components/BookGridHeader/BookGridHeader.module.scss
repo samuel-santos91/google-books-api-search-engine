@@ -1,0 +1,21 @@
+@use "../../styles/partials/variables";
+
+.header {
+  &__title {
+    margin: 3rem 0 0 0;
+    font-size: 2rem;
+    color: variables.$color-cream;
+  }
+
+  &__icon {
+    position: relative;
+    top: -1rem;
+    left: 38rem;
+    width: 2.5rem;
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+  }
+}

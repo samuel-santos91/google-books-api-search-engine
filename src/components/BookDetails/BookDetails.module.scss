@@ -8,24 +8,51 @@
   transform: translateX(-50%);
 
   display: flex;
+  align-items: flex-start;
   background-color: variables.$color-cream;
 
   width: 55rem;
+  height: 20rem;
   padding: 2rem;
   border-radius: 10px;
   border: 4px solid variables.$color-charcoal;
+  overflow-y: scroll;
 
   &__image {
+    object-fit: cover;
     margin-right: 1rem;
     width: 16rem;
     height: 20rem;
     border-radius: 5px;
+    box-shadow: 3px 3px 10px black;
   }
 
   &__info {
-    width: 100%;
+    width: 38rem;
     text-align: left;
-    overflow: scroll;
+
+    &--headers {
+      font-family: "Roboto Condensed", sans-serif;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.noImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 1rem;
+  width: 16rem;
+  height: 20rem;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px black;
+  background-color: variables.$color-charcoal;
+
+  &__icon {
+    width: 4rem;
+    opacity: 0.4;
   }
 }
 

@@ -1,0 +1,1448 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 2435,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "1MhZEAAAQBAJ",
+      "etag": "OjZ5E01PqHA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/1MhZEAAAQBAJ",
+      "volumeInfo": {
+        "title": "You've Reached Sam",
+        "authors": ["Dustin Thao"],
+        "publisher": "Pan Australia",
+        "publishedDate": "2022-02-08",
+        "description": "How do you move forward when everything you love is on the line? A heartfelt novel about love and loss and what it means to say goodbye Seventeen-year-old Julie Clarke has her future all planned out - move out of her small town with her boyfriend, Sam; attend college in the city; spend a summer in Japan. But then Sam dies. And everything changes. Heartbroken, Julie skips his funeral, throws out his belongings, and tries everything to forget him. But a message Sam left behind in her yearbook forces memories to return. Desperate to hear him one more time, Julie calls Sam's cell phone just to listen to his voice mail recording. And Sam picks up the phone. The connection is temporary. But hearing Sam's voice makes Julie fall for him all over again, and, with each call, it becomes harder to let him go. What would you do if you have a second chance at goodbye? Praise for You've Reached Sam 'You've Reached Sam is a hauntingly remarkable debut. Dustin Thao gently weaves grief, regret, second chances, and the honestly beautiful moments we carry from a first love. Every tear you shed reading this book will be worth it.' - Julian Winters, award-winning author of Running with Lions 'If you like your contemporaries with a tiny piece of magic, this emotional YA is perfect for you.' - BUZZFEED",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781761261558"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "176126155X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": ["Young Adult Fiction"],
+        "averageRating": 3.5,
+        "ratingsCount": 4,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.11.9.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=1MhZEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=1MhZEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=1MhZEAAAQBAJ&printsec=frontcover&dq=sam&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=1MhZEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=1MhZEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.99,
+          "currencyCode": "AUD"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "AUD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=1MhZEAAAQBAJ&rdid=book-1MhZEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "AUD"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "AUD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.au/books/download/You_ve_Reached_Sam-sample-epub.acsm?id=1MhZEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.au/books/download/You_ve_Reached_Sam-sample-pdf.acsm?id=1MhZEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=1MhZEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Dustin Thao gently weaves grief, regret, second chances, and the honestly beautiful moments we carry from a first love. Every tear you shed reading this book will be worth it."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "IRcNswEACAAJ",
+      "etag": "at89rcostVQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/IRcNswEACAAJ",
+      "volumeInfo": {
+        "title": "The Book of Sam",
+        "authors": ["Sam Johnston"],
+        "publishedDate": "2015-07-29",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1320511163"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781320511162"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=IRcNswEACAAJ&dq=sam&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com.au/books?id=IRcNswEACAAJ&dq=sam&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Book_of_Sam.html?hl=&id=IRcNswEACAAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=IRcNswEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "SqPAAgAAQBAJ",
+      "etag": "D+W0MGKp+RU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/SqPAAgAAQBAJ",
+      "volumeInfo": {
+        "title": "Sam's Sketches",
+        "authors": ["Sam Davy"],
+        "publisher": "Lulu.com",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780557082834"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0557082838"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 6,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=SqPAAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=SqPAAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=SqPAAgAAQBAJ&printsec=frontcover&dq=sam&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com.au/books?id=SqPAAgAAQBAJ&dq=sam&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Sam_s_Sketches.html?hl=&id=SqPAAgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.au/books/download/Sam_s_Sketches-sample-pdf.acsm?id=SqPAAgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=SqPAAgAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "HFNgAAAAcAAJ",
+      "etag": "VOF67Ratc8c",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/HFNgAAAAcAAJ",
+      "volumeInfo": {
+        "title": "Sam Belson, or a Visit to the beach. A tale for young persons, etc",
+        "authors": ["Sam BELSON"],
+        "publishedDate": "1836",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "BL:A0019585354"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 204,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.3.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=HFNgAAAAcAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=HFNgAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=HFNgAAAAcAAJ&printsec=frontcover&dq=sam&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=HFNgAAAAcAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=HFNgAAAAcAAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=HFNgAAAAcAAJ&rdid=book-HFNgAAAAcAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.com.au/books/download/Sam_Belson_or_a_Visit_to_the_beach_A_tal.epub?id=HFNgAAAAcAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=HFNgAAAAcAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "i70HjeOccDAC",
+      "etag": "27l2UCaiTEg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/i70HjeOccDAC",
+      "volumeInfo": {
+        "title": "Sam Silva",
+        "authors": ["Sam Silva"],
+        "publishedDate": "1874",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "NLS:V000670280"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 82,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=i70HjeOccDAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=i70HjeOccDAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=i70HjeOccDAC&printsec=frontcover&dq=sam&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=i70HjeOccDAC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=i70HjeOccDAC"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=i70HjeOccDAC&rdid=book-i70HjeOccDAC&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.com.au/books/download/Sam_Silva.epub?id=i70HjeOccDAC&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=i70HjeOccDAC&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "a7Mb5wrV6LMC",
+      "etag": "L0qp6thsvNQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/a7Mb5wrV6LMC",
+      "volumeInfo": {
+        "title": "Sam Has a Picnic",
+        "publisher": "Nelson Thornes",
+        "publishedDate": "1998",
+        "description": "NOT AVAILABLE SEPARATELY",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0174014465"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780174014461"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 18,
+        "printType": "BOOK",
+        "categories": ["Chickens"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.4.4.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=a7Mb5wrV6LMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=a7Mb5wrV6LMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=a7Mb5wrV6LMC&printsec=frontcover&dq=sam&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com.au/books?id=a7Mb5wrV6LMC&dq=sam&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Sam_Has_a_Picnic.html?hl=&id=a7Mb5wrV6LMC"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.au/books/download/Sam_Has_a_Picnic-sample-pdf.acsm?id=a7Mb5wrV6LMC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=a7Mb5wrV6LMC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "NOT AVAILABLE SEPARATELY"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "50QpjwEACAAJ",
+      "etag": "FQBumhXrE1Y",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/50QpjwEACAAJ",
+      "volumeInfo": {
+        "title": "Sam",
+        "authors": ["Sam Jackson"],
+        "publishedDate": "2015-12-06",
+        "description": "Sam",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1519713886"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781519713889"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 44,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=50QpjwEACAAJ&dq=sam&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.com.au/books?id=50QpjwEACAAJ&dq=sam&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Sam.html?hl=&id=50QpjwEACAAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=50QpjwEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Sam"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "YrwuEAAAQBAJ",
+      "etag": "SsOwNUybpFw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/YrwuEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Sam's Then and Now Book",
+        "authors": ["A.C. Clary"],
+        "publisher": "Covenant Books, Inc.",
+        "publishedDate": "2022-08-01",
+        "description": "This book is about an adventurous boy named Sam who collects pictures of himself trying new activities. Then he creates a book where he displays them, showing his progression. This allows him to track his advancement and see how much he has improved over time.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781646700219"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "164670021X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 25,
+        "printType": "BOOK",
+        "categories": ["Juvenile Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=YrwuEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=YrwuEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=YrwuEAAAQBAJ&printsec=frontcover&dq=sam&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.com.au/books?id=YrwuEAAAQBAJ&dq=sam&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Sam_s_Then_and_Now_Book.html?hl=&id=YrwuEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.au/books/download/Sam_s_Then_and_Now_Book-sample-epub.acsm?id=YrwuEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.au/books/download/Sam_s_Then_and_Now_Book-sample-pdf.acsm?id=YrwuEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=YrwuEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book is about an adventurous boy named Sam who collects pictures of himself trying new activities."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "jSy5zQEACAAJ",
+      "etag": "XeL2/wAtevg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/jSy5zQEACAAJ",
+      "volumeInfo": {
+        "title": "Dyma Sam",
+        "authors": ["Chris Chatterton"],
+        "publishedDate": "2020-09",
+        "description": "Sam is a grumpy dog. He doesn't like much of anything, especially making friends. But will he change his mind when a new puppy arrives on the scene? Giggle away those grumps with this hilarious tale about bad moods, sausages and learning to compromise.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1784231614"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781784231613"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 32,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=jSy5zQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=jSy5zQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=jSy5zQEACAAJ&dq=sam&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.com.au/books?id=jSy5zQEACAAJ&dq=sam&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Dyma_Sam.html?hl=&id=jSy5zQEACAAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=jSy5zQEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "He doesn&#39;t like much of anything, especially making friends. But will he change his mind when a new puppy arrives on the scene?Giggle away those grumps with this hilarious tale about bad moods, sausages and learning to compromise."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "mvplDwAAQBAJ",
+      "etag": "4h8nAqyCriU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/mvplDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Sam's Ghost",
+        "authors": ["William Wymark Jacobs"],
+        "publisher": "Litres",
+        "publishedDate": "2018-07-22",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9785041241056"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "5041241058"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 20,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=mvplDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=mvplDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=mvplDwAAQBAJ&printsec=frontcover&dq=sam&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.com.au/books?id=mvplDwAAQBAJ&dq=sam&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Sam_s_Ghost.html?hl=&id=mvplDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.au/books/download/Sam_s_Ghost-sample-epub.acsm?id=mvplDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.au/books/download/Sam_s_Ghost-sample-pdf.acsm?id=mvplDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=mvplDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "bKvxsgEACAAJ",
+      "etag": "hcnLMS54CPM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/bKvxsgEACAAJ",
+      "volumeInfo": {
+        "title": "Sam's Paper",
+        "authors": ["Sam"],
+        "publishedDate": "2015-05-27",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1320667856"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781320667852"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=bKvxsgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=bKvxsgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=bKvxsgEACAAJ&dq=sam&hl=&cd=11&source=gbs_api",
+        "infoLink": "http://books.google.com.au/books?id=bKvxsgEACAAJ&dq=sam&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Sam_s_Paper.html?hl=&id=bKvxsgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=bKvxsgEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "P6PPHulG1UgC",
+      "etag": "/hYJrDF7Vn4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/P6PPHulG1UgC",
+      "volumeInfo": {
+        "title": "Engaging Sam",
+        "authors": ["Ingrid Weaver"],
+        "publisher": "HarperCollins Australia",
+        "publishedDate": "2012-07-01",
+        "description": "MEN IN BLUE UNDERCOVER AND UNDRESSED! At first Audra McPherson didn't recognize the man who burst into her moonlit bedroom. She's never seen her reclusive neighbour so close, or so naked. Strapping, sexy Sam Tucker was hardly the quiet businessman she'd imagined. He was actually a cop, and his cover would be blown unless she posed as his fiancee. Audra had catered enough weddings to know that smitten couples couldn't keep their hands off each other. But did Sam have to make their \"engagement\" so realistic? His passionate kisses almost had her believing they were destined for wedded bliss . Love in the line of duty.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781460868065"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1460868064"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 206,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.4.4.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=P6PPHulG1UgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=P6PPHulG1UgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=P6PPHulG1UgC&printsec=frontcover&dq=sam&hl=&cd=12&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=P6PPHulG1UgC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=P6PPHulG1UgC"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 5.99,
+          "currencyCode": "AUD"
+        },
+        "retailPrice": {
+          "amount": 5.99,
+          "currencyCode": "AUD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=P6PPHulG1UgC&rdid=book-P6PPHulG1UgC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 5990000,
+              "currencyCode": "AUD"
+            },
+            "retailPrice": {
+              "amountInMicros": 5990000,
+              "currencyCode": "AUD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.au/books/download/Engaging_Sam-sample-epub.acsm?id=P6PPHulG1UgC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=P6PPHulG1UgC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "MEN IN BLUE UNDERCOVER AND UNDRESSED!"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "c49uikl-OVUC",
+      "etag": "Q8s5CozQd2Q",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/c49uikl-OVUC",
+      "volumeInfo": {
+        "title": "Sam's Picnic",
+        "authors": ["Beverley Randell"],
+        "publisher": "Nelson Thornes",
+        "publishedDate": "2000",
+        "description": "Designed to be used by children in their first six months of school PM Starters One and Two",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0170095886"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780170095884"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 20,
+        "printType": "BOOK",
+        "categories": ["Children's stories, New Zealand"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.3.5.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=c49uikl-OVUC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=c49uikl-OVUC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=c49uikl-OVUC&dq=sam&hl=&cd=13&source=gbs_api",
+        "infoLink": "http://books.google.com.au/books?id=c49uikl-OVUC&dq=sam&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Sam_s_Picnic.html?hl=&id=c49uikl-OVUC"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=c49uikl-OVUC&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Designed to be used by children in their first six months of school PM Starters One and Two"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "1ooQkAEACAAJ",
+      "etag": "6MH6F7bQI5g",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/1ooQkAEACAAJ",
+      "volumeInfo": {
+        "title": "Salz, Sam",
+        "publishedDate": "19??",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "OCLC:946194400"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=1ooQkAEACAAJ&dq=sam&hl=&cd=14&source=gbs_api",
+        "infoLink": "http://books.google.com.au/books?id=1ooQkAEACAAJ&dq=sam&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Salz_Sam.html?hl=&id=1ooQkAEACAAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=1ooQkAEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "GhU7EAAAQBAJ",
+      "etag": "gxAiZ/O39ZE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/GhU7EAAAQBAJ",
+      "volumeInfo": {
+        "title": "Gravy Train",
+        "authors": ["Sam Downes"],
+        "publisher": "Rectangle Books",
+        "description": "What choice do you have when there's a mysterious train sitting at the station just asking to be boarded? You hop on, start a small business and try to keep it together while HR issues, fare evaders, static electricity and sci-fi try to take it all away. Gravy Train is a hilarious short story from Sam Downes, author of the upcoming comedy/tea novel Tea Time: The Fifth Brew. ​​​​​​​www.rectanglebooks.com",
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 14,
+        "printType": "BOOK",
+        "categories": ["Humor"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=GhU7EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=GhU7EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=GhU7EAAAQBAJ&printsec=frontcover&dq=sam&hl=&cd=15&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=GhU7EAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=GhU7EAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 1.09,
+          "currencyCode": "AUD"
+        },
+        "retailPrice": {
+          "amount": 1.09,
+          "currencyCode": "AUD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=GhU7EAAAQBAJ&rdid=book-GhU7EAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1090000,
+              "currencyCode": "AUD"
+            },
+            "retailPrice": {
+              "amountInMicros": 1090000,
+              "currencyCode": "AUD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=GhU7EAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Gravy Train is a hilarious short story from Sam Downes, author of the upcoming comedy/tea novel Tea Time: The Fifth Brew. ​​​​​​​www.rectanglebooks.com"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "we3vnwEACAAJ",
+      "etag": "jKtsw6KbO9A",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/we3vnwEACAAJ",
+      "volumeInfo": {
+        "title": "Sam",
+        "authors": ["Richard Marazano", "Shang Xiao"],
+        "publisher": "Cinebook",
+        "publishedDate": "2014-10-01",
+        "description": "After most of the human race is exterminated by killer robots, Ian and his companions survive in the sewers, scavenging on the surface for food and supplies, where one day, they are intercepted by a robot that mysteriously spares them.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1849182183"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781849182188"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 48,
+        "printType": "BOOK",
+        "categories": ["Comics & Graphic Novels"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "comicsContent": true,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=we3vnwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=we3vnwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=we3vnwEACAAJ&dq=sam&hl=&cd=16&source=gbs_api",
+        "infoLink": "http://books.google.com.au/books?id=we3vnwEACAAJ&dq=sam&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Sam.html?hl=&id=we3vnwEACAAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=we3vnwEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "After most of the human race is exterminated by killer robots, Ian and his companions survive in the sewers, scavenging on the surface for food and supplies, where one day, they are intercepted by a robot that mysteriously spares them."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "YQ-azgEACAAJ",
+      "etag": "wrmM4/J/1oo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/YQ-azgEACAAJ",
+      "volumeInfo": {
+        "title": "Sam's Tale",
+        "authors": ["Gill Doughty"],
+        "publisher": "GM Publishing",
+        "publishedDate": "2021-03-10",
+        "description": "SAM'S TALE - The Third AdventureRescued by George and his two friends, William, an ancient creature, now causes many problems for Alis Jones, the children's teacher. Octavius, the eccentric barn owl behaves appallingly at every opportunity and keeps his own secrets. Sam, George's beautiful tabby cat, is brave and loyal, but will he ever regain his memory or his love of chocolate cake?Sam's Tale, the third and for the moment, final book in the series, continues the exciting and dangerous adventures of George, Izzie and Tom. William becomes a magnificent dragon once more, Octavius becomes even more annoying and Sam continues to be a truly remarkable cat.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0957509464"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780957509467"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 104,
+        "printType": "BOOK",
+        "categories": ["Juvenile Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=YQ-azgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=YQ-azgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=YQ-azgEACAAJ&dq=sam&hl=&cd=17&source=gbs_api",
+        "infoLink": "http://books.google.com.au/books?id=YQ-azgEACAAJ&dq=sam&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Sam_s_Tale.html?hl=&id=YQ-azgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=YQ-azgEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Sam, George&#39;s beautiful tabby cat, is brave and loyal, but will he ever regain his memory or his love of chocolate cake?Sam&#39;s Tale, the third and for the moment, final book in the series, continues the exciting and dangerous adventures of ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "WLwfEAAAQBAJ",
+      "etag": "gwtlF4nJbUY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/WLwfEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Accidental Weatherman",
+        "authors": ["Sam Mac"],
+        "publisher": "Hachette UK",
+        "publishedDate": "2021-04-28",
+        "description": "The Accidental Weatherman is the story of what happens when a hilarious Adelaide boy who knows nothing about meteorology scores the coveted weatherman gig on the highest rating breakfast TV show in Australia. As the Sunrise weatherman, Sam Mac has bungee jumped, swum with sharks, got his cat on the cover of Pussweek magazine, taken his mum to the Logies when he was nominated for gold, stripped naked for The Real Full Monty and even recorded a song with The Wiggles. But, ultimately, his job is about people - from primary schoolers to pensioners, Sam's gift is how he connects with them all. He uses heart and humour in his role on Sunrise to introduce viewers to the true characters of Australia. He prides himself on bringing awareness to causes such as mental health and animal rescue, and on championing underdogs who might need a hand up or a shout out. His genuine nature and open-book approach to social media has won him hundreds of thousands of fans along the way - although even he would admit that many of them only like him for his cat Coco (who is rapidly catching up to him in Instagram followers). After presenting more than 25 000 minutes of live TV in over 800 different Australian towns, Sam really has seen the absolute best of Australia, and it's brought out the best in him.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780733645983"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0733645984"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 304,
+        "printType": "BOOK",
+        "categories": ["Biography & Autobiography"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.1.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=WLwfEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=WLwfEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=WLwfEAAAQBAJ&printsec=frontcover&dq=sam&hl=&cd=18&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=WLwfEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=WLwfEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 16.99,
+          "currencyCode": "AUD"
+        },
+        "retailPrice": {
+          "amount": 16.99,
+          "currencyCode": "AUD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=WLwfEAAAQBAJ&rdid=book-WLwfEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 16990000,
+              "currencyCode": "AUD"
+            },
+            "retailPrice": {
+              "amountInMicros": 16990000,
+              "currencyCode": "AUD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.au/books/download/Accidental_Weatherman-sample-epub.acsm?id=WLwfEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=WLwfEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The Accidental Weatherman is the story of what happens when a hilarious Adelaide boy who knows nothing about meteorology scores the coveted weatherman gig on the highest rating breakfast TV show in Australia."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "BV2CEAAAQBAJ",
+      "etag": "ZOOTWwIaVMA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/BV2CEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Sam Kerr Kicking Goals Collection",
+        "subtitle": "Featuring books 1-4 and a bonus soccer journal",
+        "authors": ["Sam Kerr", "Fiona Harris", "Louise Blair"],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2022-11-24",
+        "description": "A special collection of stories from Sam Kerr’s Kicking Goals series, with a bonus journal featuring soccer tips and tricks from the Matildas captain and World Cup superstar. Sam Kerr hasn’t always been a soccer legend. She was an Aussie Rules tragic through and through. But when excluded from her team for being a girl, she has to change direction. Her best friends Dylan and Indi reckon she should flip from AFL to soccer but with the pressure of learning the new rules, and the school bully Chelsea on her case, Sam has to learn fast! The Kicking Goals bumper collection includes the first four exciting stories in Sam Kerr’s awesome Kicking Goals series. It follows Sam’s journey from soccer newbie to playing in the finals. Inside you’ll find The Flip Out, A New Knight, Sports Day and Finals Fever along with a bonus Sam Kerr journal packed with soccer know-how, tips, stats, activities and places for you to record your own soccer highlights.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781761109584"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1761109588"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 357,
+        "printType": "BOOK",
+        "categories": ["Juvenile Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.7.7.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=BV2CEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=BV2CEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=BV2CEAAAQBAJ&printsec=frontcover&dq=sam&hl=&cd=19&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=BV2CEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=BV2CEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 21.99,
+          "currencyCode": "AUD"
+        },
+        "retailPrice": {
+          "amount": 21.99,
+          "currencyCode": "AUD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=BV2CEAAAQBAJ&rdid=book-BV2CEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 21990000,
+              "currencyCode": "AUD"
+            },
+            "retailPrice": {
+              "amountInMicros": 21990000,
+              "currencyCode": "AUD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.au/books/download/Sam_Kerr_Kicking_Goals_Collection-sample-epub.acsm?id=BV2CEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=BV2CEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "A special collection of stories from Sam Kerr’s Kicking Goals series, with a bonus journal featuring soccer tips and tricks from the Matildas captain and World Cup superstar. Sam Kerr hasn’t always been a soccer legend."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "EkyrDwAAQBAJ",
+      "etag": "/wy0rW0jdDI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/EkyrDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Sam and Julia: Mouse Mansion 1",
+        "authors": ["Karina Schaapman"],
+        "publisher": "Allen & Unwin",
+        "publishedDate": "2019-12-03",
+        "description": "Sam and Julia live in a wonderful place called the Mouse Mansion. Sam is SUPER shy and VERY well behaved, while Julia is SUPER curious and VERY stubborn. The two mice couldn't be more different, but they are the best of friends. Whenever Julia gets bored, she goes looking for Sam, and they have all sorts of adventures together. They discover a secret cubbyhouse, greet the ragman and learn to make pancakes. There is a shop that sells everything and a box full of treasure. And - OH NO! - there might even be a rat! The Mouse Mansion is always full of surprises. Won't you come inside and explore? Author and artist Karina Schaapman spent years building and furnishing the Mouse Mansion in which this story takes place. The elaborate dollhouse is made of found objects such as bottle tops, matchsticks, pop sticks, cardboard boxes and papier-mache, and contains more than one hundred rooms to explore.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781760872991"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1760872997"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 64,
+        "printType": "BOOK",
+        "categories": ["Juvenile Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=EkyrDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=EkyrDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=EkyrDwAAQBAJ&printsec=frontcover&dq=sam&hl=&cd=20&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=EkyrDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=EkyrDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 21.81,
+          "currencyCode": "AUD"
+        },
+        "retailPrice": {
+          "amount": 21.81,
+          "currencyCode": "AUD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=EkyrDwAAQBAJ&rdid=book-EkyrDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 21810000,
+              "currencyCode": "AUD"
+            },
+            "retailPrice": {
+              "amountInMicros": 21810000,
+              "currencyCode": "AUD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.au/books/download/Sam_and_Julia_Mouse_Mansion_1-sample-epub.acsm?id=EkyrDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.au/books/download/Sam_and_Julia_Mouse_Mansion_1-sample-pdf.acsm?id=EkyrDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=EkyrDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The Mouse Mansion is always full of surprises. Won&#39;t you come inside and explore? Author and artist Karina Schaapman spent years building and furnishing the Mouse Mansion in which this story takes place."
+      }
+    }
+  ]
+}

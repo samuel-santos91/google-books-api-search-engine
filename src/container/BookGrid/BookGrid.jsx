@@ -2,33 +2,45 @@ import { useState, useEffect } from "react";
 
 import BookCard from "../../components/BookCard/BookCard";
 import BookDetails from "../../components/BookDetails/BookDetails";
-import styles from "./BookGrid.module.scss";
-import googleBooks from "../../services/books";
+import BookGridHeader from "../../components/BookGridHeader/BookGridHeader";
 
-const BookGrid = ({ inputData }) => {
+import styles from "./BookGrid.module.scss";
+// import googleBooks from "../../services/books";
+
+import urlPrompt from "../../services/prompt.json";
+
+const BookGrid = ({ inputData, onGrid }) => {
   const [books, setBooks] = useState("");
   const [bookIndex, setBookIndex] = useState("");
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const fetchedBooks = await googleBooks(
-          `https://www.googleapis.com/books/v1/volumes?q=${inputData}&maxResults=20`
-        );
-        console.log(fetchedBooks);
-        setBooks(fetchedBooks);
-      } catch (error) {
-        console.log(error);
-      }
-    };
+    // const fetchData = async () => {
+    //   try {
+    //     const fetchedBooks = await googleBooks(
+    //       `https://www.googleapis.com/books/v1/volumes?q=${inputData}&maxResults=20`
+    //     );
+    //     console.log(fetchedBooks);
+    //     setBooks(fetchedBooks);
+    //   } catch (error) {
+    //     console.log(error);
+    //   }
+    // };
 
-    fetchData();
-  }, [books]);
+    // fetchData();
+    setBooks(urlPrompt.items);
+  }, []);
 
-  console.log(books[bookIndex]);
+  console.log(books);
 
   return (
     <div>
+      <BookGridHeader
+        onGridHeader={(value) => {
+          onGrid("");
+          setBooks(value);
+        }}
+      />
+
       <section className={styles["books-display"]}>
         {books &&
           books.map((data, index) => (
@@ -41,7 +53,7 @@ const BookGrid = ({ inputData }) => {
           ))}
       </section>
 
-      {bookIndex && (
+      {bookIndex !== "" && (
         <BookDetails
           image={books[bookIndex]?.volumeInfo?.imageLinks?.thumbnail}
           title={books[bookIndex]?.volumeInfo?.title}
