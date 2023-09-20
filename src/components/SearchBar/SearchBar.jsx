@@ -12,7 +12,7 @@ const SearchBar = ({ onSearchBar }) => {
 
   const dataHandler = (e) => {
     e.preventDefault();
-    onSearchBar(searchedWord);
+    onSearchBar(searchedWord.split(" ").join("+"));
     setSearchedWord("");
   };
 
@@ -26,7 +26,11 @@ const SearchBar = ({ onSearchBar }) => {
         value={searchedWord}
       />
       <button className={styles["form-section__btn"]} type="submit">
-        <img className={styles["form-section__btn--image"]} src={searchImage} alt="search icon" />
+        <img
+          className={styles["form-section__btn--image"]}
+          src={searchImage}
+          alt="search icon"
+        />
       </button>
     </form>
   );

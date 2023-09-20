@@ -43,9 +43,7 @@ const BookDetails = ({
             <em>{description ? description : "Description not available"}</em>
           </p>
           <p>
-            <span className={styles["details__info--headers"]}>
-              Pages:
-            </span>{" "}
+            <span className={styles["details__info--headers"]}>Pages:</span>{" "}
             {pages ? pages : "Number of pages not available"}
           </p>
           <p>

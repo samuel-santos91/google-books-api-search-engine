@@ -1653,7 +1653,421 @@
     },
     {
       "kind": "books#volume",
+      "id": "YQ-azgEAJ",
+      "etag": "wrmM4/J/1oo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/YQ-azgEACAAJ",
+      "volumeInfo": {
+        "title": "Sam's Tale",
+        "authors": ["Gill Doughty"],
+        "publisher": "GM Publishing",
+        "publishedDate": "2021-03-10",
+        "description": "SAM'S TALE - The Third AdventureRescued by George and his two friends, William, an ancient creature, now causes many problems for Alis Jones, the children's teacher. Octavius, the eccentric barn owl behaves appallingly at every opportunity and keeps his own secrets. Sam, George's beautiful tabby cat, is brave and loyal, but will he ever regain his memory or his love of chocolate cake?Sam's Tale, the third and for the moment, final book in the series, continues the exciting and dangerous adventures of George, Izzie and Tom. William becomes a magnificent dragon once more, Octavius becomes even more annoying and Sam continues to be a truly remarkable cat.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0957509464"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780957509467"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 104,
+        "printType": "BOOK",
+        "categories": ["Juvenile Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=YQ-azgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=YQ-azgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=YQ-azgEACAAJ&dq=sam&hl=&cd=17&source=gbs_api",
+        "infoLink": "http://books.google.com.au/books?id=YQ-azgEACAAJ&dq=sam&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Sam_s_Tale.html?hl=&id=YQ-azgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=YQ-azgEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Sam, George&#39;s beautiful tabby cat, is brave and loyal, but will he ever regain his memory or his love of chocolate cake?Sam&#39;s Tale, the third and for the moment, final book in the series, continues the exciting and dangerous adventures of ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "YQ-azgEAAJ",
+      "etag": "wrmM4/J/1oo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/YQ-azgEACAAJ",
+      "volumeInfo": {
+        "title": "Sam's Tale",
+        "authors": ["Gill Doughty"],
+        "publisher": "GM Publishing",
+        "publishedDate": "2021-03-10",
+        "description": "SAM'S TALE - The Third AdventureRescued by George and his two friends, William, an ancient creature, now causes many problems for Alis Jones, the children's teacher. Octavius, the eccentric barn owl behaves appallingly at every opportunity and keeps his own secrets. Sam, George's beautiful tabby cat, is brave and loyal, but will he ever regain his memory or his love of chocolate cake?Sam's Tale, the third and for the moment, final book in the series, continues the exciting and dangerous adventures of George, Izzie and Tom. William becomes a magnificent dragon once more, Octavius becomes even more annoying and Sam continues to be a truly remarkable cat.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0957509464"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780957509467"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 104,
+        "printType": "BOOK",
+        "categories": ["Juvenile Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=YQ-azgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=YQ-azgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=YQ-azgEACAAJ&dq=sam&hl=&cd=17&source=gbs_api",
+        "infoLink": "http://books.google.com.au/books?id=YQ-azgEACAAJ&dq=sam&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Sam_s_Tale.html?hl=&id=YQ-azgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=YQ-azgEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Sam, George&#39;s beautiful tabby cat, is brave and loyal, but will he ever regain his memory or his love of chocolate cake?Sam&#39;s Tale, the third and for the moment, final book in the series, continues the exciting and dangerous adventures of ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "YQ-gEAAAJ",
+      "etag": "wrmM4/J/1oo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/YQ-azgEACAAJ",
+      "volumeInfo": {
+        "title": "Sam's Tale",
+        "authors": ["Gill Doughty"],
+        "publisher": "GM Publishing",
+        "publishedDate": "2021-03-10",
+        "description": "SAM'S TALE - The Third AdventureRescued by George and his two friends, William, an ancient creature, now causes many problems for Alis Jones, the children's teacher. Octavius, the eccentric barn owl behaves appallingly at every opportunity and keeps his own secrets. Sam, George's beautiful tabby cat, is brave and loyal, but will he ever regain his memory or his love of chocolate cake?Sam's Tale, the third and for the moment, final book in the series, continues the exciting and dangerous adventures of George, Izzie and Tom. William becomes a magnificent dragon once more, Octavius becomes even more annoying and Sam continues to be a truly remarkable cat.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0957509464"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780957509467"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 104,
+        "printType": "BOOK",
+        "categories": ["Juvenile Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=YQ-azgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=YQ-azgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=YQ-azgEACAAJ&dq=sam&hl=&cd=17&source=gbs_api",
+        "infoLink": "http://books.google.com.au/books?id=YQ-azgEACAAJ&dq=sam&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Sam_s_Tale.html?hl=&id=YQ-azgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=YQ-azgEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Sam, George&#39;s beautiful tabby cat, is brave and loyal, but will he ever regain his memory or his love of chocolate cake?Sam&#39;s Tale, the third and for the moment, final book in the series, continues the exciting and dangerous adventures of ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Y-azgAJ",
+      "etag": "wrmM4/J/1oo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/YQ-azgEACAAJ",
+      "volumeInfo": {
+        "title": "Sam's Tale",
+        "authors": ["Gill Doughty"],
+        "publisher": "GM Publishing",
+        "publishedDate": "2021-03-10",
+        "description": "SAM'S TALE - The Third AdventureRescued by George and his two friends, William, an ancient creature, now causes many problems for Alis Jones, the children's teacher. Octavius, the eccentric barn owl behaves appallingly at every opportunity and keeps his own secrets. Sam, George's beautiful tabby cat, is brave and loyal, but will he ever regain his memory or his love of chocolate cake?Sam's Tale, the third and for the moment, final book in the series, continues the exciting and dangerous adventures of George, Izzie and Tom. William becomes a magnificent dragon once more, Octavius becomes even more annoying and Sam continues to be a truly remarkable cat.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0957509464"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780957509467"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 104,
+        "printType": "BOOK",
+        "categories": ["Juvenile Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=YQ-azgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=YQ-azgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=YQ-azgEACAAJ&dq=sam&hl=&cd=17&source=gbs_api",
+        "infoLink": "http://books.google.com.au/books?id=YQ-azgEACAAJ&dq=sam&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Sam_s_Tale.html?hl=&id=YQ-azgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=YQ-azgEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Sam, George&#39;s beautiful tabby cat, is brave and loyal, but will he ever regain his memory or his love of chocolate cake?Sam&#39;s Tale, the third and for the moment, final book in the series, continues the exciting and dangerous adventures of ..."
+      }
+    },
+    {
+      "kind": "books#volume",
       "id": "YQ-azgEAAAJ",
+      "etag": "wrmM4/J/1oo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/YQ-azgEACAAJ",
+      "volumeInfo": {
+        "title": "Sam's Tale",
+        "authors": ["Gill Doughty"],
+        "publisher": "GM Publishing",
+        "publishedDate": "2021-03-10",
+        "description": "SAM'S TALE - The Third AdventureRescued by George and his two friends, William, an ancient creature, now causes many problems for Alis Jones, the children's teacher. Octavius, the eccentric barn owl behaves appallingly at every opportunity and keeps his own secrets. Sam, George's beautiful tabby cat, is brave and loyal, but will he ever regain his memory or his love of chocolate cake?Sam's Tale, the third and for the moment, final book in the series, continues the exciting and dangerous adventures of George, Izzie and Tom. William becomes a magnificent dragon once more, Octavius becomes even more annoying and Sam continues to be a truly remarkable cat.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0957509464"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780957509467"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 104,
+        "printType": "BOOK",
+        "categories": ["Juvenile Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=YQ-azgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=YQ-azgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=YQ-azgEACAAJ&dq=sam&hl=&cd=17&source=gbs_api",
+        "infoLink": "http://books.google.com.au/books?id=YQ-azgEACAAJ&dq=sam&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Sam_s_Tale.html?hl=&id=YQ-azgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=YQ-azgEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Sam, George&#39;s beautiful tabby cat, is brave and loyal, but will he ever regain his memory or his love of chocolate cake?Sam&#39;s Tale, the third and for the moment, final book in the series, continues the exciting and dangerous adventures of ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "YQ-azgEAffvfvfAAJ",
+      "etag": "wrmM4/J/1oo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/YQ-azgEACAAJ",
+      "volumeInfo": {
+        "title": "Sam's Tale",
+        "authors": ["Gill Doughty"],
+        "publisher": "GM Publishing",
+        "publishedDate": "2021-03-10",
+        "description": "SAM'S TALE - The Third AdventureRescued by George and his two friends, William, an ancient creature, now causes many problems for Alis Jones, the children's teacher. Octavius, the eccentric barn owl behaves appallingly at every opportunity and keeps his own secrets. Sam, George's beautiful tabby cat, is brave and loyal, but will he ever regain his memory or his love of chocolate cake?Sam's Tale, the third and for the moment, final book in the series, continues the exciting and dangerous adventures of George, Izzie and Tom. William becomes a magnificent dragon once more, Octavius becomes even more annoying and Sam continues to be a truly remarkable cat.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0957509464"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780957509467"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 104,
+        "printType": "BOOK",
+        "categories": ["Juvenile Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=YQ-azgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=YQ-azgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.au/books?id=YQ-azgEACAAJ&dq=sam&hl=&cd=17&source=gbs_api",
+        "infoLink": "http://books.google.com.au/books?id=YQ-azgEACAAJ&dq=sam&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Sam_s_Tale.html?hl=&id=YQ-azgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "AU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AU",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=YQ-azgEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Sam, George&#39;s beautiful tabby cat, is brave and loyal, but will he ever regain his memory or his love of chocolate cake?Sam&#39;s Tale, the third and for the moment, final book in the series, continues the exciting and dangerous adventures of ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "YQ-adeedAAJ",
       "etag": "wrmM4/J/1oo",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/YQ-azgEACAAJ",
       "volumeInfo": {

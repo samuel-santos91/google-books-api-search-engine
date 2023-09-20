@@ -20,6 +20,7 @@
 
 .noImage {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -38,5 +39,9 @@
   &__icon {
     width: 4rem;
     opacity: .4;
+  }
+
+  &__description {
+    color: variables.$color-cream;
   }
 }

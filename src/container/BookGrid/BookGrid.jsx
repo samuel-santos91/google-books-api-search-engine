@@ -17,7 +17,7 @@ const BookGrid = ({ inputData, onGrid }) => {
     // const fetchData = async () => {
     //   try {
     //     const fetchedBooks = await googleBooks(
-    //       `https://www.googleapis.com/books/v1/volumes?q=${inputData}&maxResults=24`
+    //       `https://www.googleapis.com/books/v1/volumes?q=${inputData}&maxResults=30`
     //     );
     //     console.log(fetchedBooks);
     //     setBooks(fetchedBooks);
