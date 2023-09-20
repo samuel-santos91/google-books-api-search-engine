@@ -1,7 +1,15 @@
 import styles from "./BookDetails.module.scss";
 import icon from "../../assets/icons/noImage.png";
 
-const BookDetails = ({ image, title, author, description, backdrop }) => {
+const BookDetails = ({
+  image,
+  title,
+  author,
+  description,
+  published,
+  pages,
+  backdrop,
+}) => {
   return (
     <section>
       <div onClick={() => backdrop("")} className={styles.backdrop} />
@@ -29,13 +37,22 @@ const BookDetails = ({ image, title, author, description, backdrop }) => {
           </p>
           <p>
             <span className={styles["details__info--headers"]}>Author:</span>{" "}
-            <em>{author ? author : "Author not available"}</em>
+            <em>{author ? author.join(", ") : "Author not available"}</em>
+          </p>
+          <p>
+            <em>{description ? description : "Description not available"}</em>
           </p>
           <p>
             <span className={styles["details__info--headers"]}>
-              Description:
+              Pages:
             </span>{" "}
-            <em>{description ? description : "Description not available"}</em>
+            {pages ? pages : "Number of pages not available"}
+          </p>
+          <p>
+            <span className={styles["details__info--headers"]}>
+              Published in:
+            </span>{" "}
+            {published ? published : "Publishing date not available"}
           </p>
         </div>
       </div>

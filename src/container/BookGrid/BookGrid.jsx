@@ -17,7 +17,7 @@ const BookGrid = ({ inputData, onGrid }) => {
     // const fetchData = async () => {
     //   try {
     //     const fetchedBooks = await googleBooks(
-    //       `https://www.googleapis.com/books/v1/volumes?q=${inputData}&maxResults=20`
+    //       `https://www.googleapis.com/books/v1/volumes?q=${inputData}&maxResults=24`
     //     );
     //     console.log(fetchedBooks);
     //     setBooks(fetchedBooks);
@@ -29,8 +29,6 @@ const BookGrid = ({ inputData, onGrid }) => {
     // fetchData();
     setBooks(urlPrompt.items);
   }, []);
-
-  console.log(books);
 
   return (
     <div>
@@ -59,6 +57,8 @@ const BookGrid = ({ inputData, onGrid }) => {
           title={books[bookIndex]?.volumeInfo?.title}
           author={books[bookIndex]?.volumeInfo?.authors}
           description={books[bookIndex]?.volumeInfo?.description}
+          published={books[bookIndex]?.volumeInfo?.publishedDate}
+          pages={books[bookIndex]?.volumeInfo?.pageCount}
           backdrop={(value) => setBookIndex(value)}
         />
       )}
