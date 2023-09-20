@@ -1,11 +1,14 @@
 import styles from "./BookCard.module.scss";
 
-import img from "../../assets/images/prompt.jpeg";
-
-const BookCard = ({imageUrl}) => {
+const BookCard = ({ imageUrl, index, onBookCard }) => {
   return (
     <div>
-      <img src={imageUrl} alt="book cover" />
+      <img
+        className={styles.bookCover}
+        src={imageUrl}
+        alt="book cover"
+        onClick={() => onBookCard(index)}
+      />
     </div>
   );
 };

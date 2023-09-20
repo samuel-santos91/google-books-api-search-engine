@@ -3,17 +3,16 @@
 .books-display {
   z-index: 2;
   position: absolute;
-  top: 10%;
+  top: 17%;
   left: 50%;
   transform: translateX(-50%);
 
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  gap: 1.5rem;
   overflow: scroll;
 
-  width: 70rem;
+  width: 62rem;
   height: 35rem;
-  padding: 2rem;
 }

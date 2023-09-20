@@ -1,7 +1,7 @@
 @use "../../styles/partials/variables";
 
-img {
-    object-fit: cover;
+.bookCover {
+  object-fit: cover;
   width: 11rem;
   height: 15rem;
   border-radius: 5px;
