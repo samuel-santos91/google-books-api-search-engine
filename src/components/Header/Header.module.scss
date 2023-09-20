@@ -1,5 +1,24 @@
-header {
-    color: white;
-    position: relative;
-    top: 30vh;
+@use "../../styles/partials/variables";
+
+.intro {
+  color: white;
+  position: relative;
+  top: 27vh;
+
+  &__title {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+
+    &--highlight {
+      color: variables.$color-gold;
+    }
+  }
+
+  &__sub-title {
+    font-size: 1.2rem;
+
+    &--highlight {
+      color: variables.$color-gold;
+    }
+  }
 }

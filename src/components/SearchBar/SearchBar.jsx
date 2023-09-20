@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+import searchImage from "../../assets/icons/search.png";
 import styles from "./SearchBar.module.scss";
 
 const SearchBar = ({ onSearchBar }) => {
@@ -16,9 +17,17 @@ const SearchBar = ({ onSearchBar }) => {
   };
 
   return (
-    <form onSubmit={dataHandler}>
-      <input onChange={inputHandler} type="text" value={searchedWord} />
-      <button type="submit">SEARCh</button>
+    <form className={styles["form-section"]} onSubmit={dataHandler}>
+      <input
+        className={styles["form-section__input"]}
+        onChange={inputHandler}
+        type="text"
+        placeholder="Search Here..."
+        value={searchedWord}
+      />
+      <button className={styles["form-section__btn"]} type="submit">
+        <img className={styles["form-section__btn--image"]} src={searchImage} alt="search icon" />
+      </button>
     </form>
   );
 };

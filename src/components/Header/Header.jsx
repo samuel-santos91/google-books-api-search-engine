@@ -1,12 +1,18 @@
-import styles from "./Header.module.scss"
+import styles from "./Header.module.scss";
 
 const Header = () => {
   return (
-    <header>
-        <h1>Google Books</h1>
-        <p>Find out about your favourite book!</p>
+    <header className={styles.intro}>
+      <h1 className={styles["intro__title"]}>
+        Google <span className={styles["intro__title--highlight"]}>Books</span>
+      </h1>
+      <p className={styles["intro__sub-title"]}>
+        Your{" "}
+        <span className={styles["intro__sub-title--highlight"]}>favourite</span>{" "}
+        book within a click!
+      </p>
     </header>
-  )
-}
+  );
+};
 
 export default Header;

@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import BookCard from "../../components/BookCard/BookCard";
 import BookDetails from "../../components/BookDetails/BookDetails";
 import styles from "./BookGrid.module.scss";
-import googleBooks from "../../data/api";
+import googleBooks from "../../services/books";
 
 const BookGrid = ({ inputData }) => {
   const [books, setBooks] = useState("");

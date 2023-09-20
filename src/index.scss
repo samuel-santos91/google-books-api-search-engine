@@ -1,7 +1,9 @@
 @use "./styles/partials/variables";
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
 
 body {
   text-align: center;
+  font-family: 'Mooli', sans-serif;
   background-image: url("./assets/images/bookshelf.png");
   background-position: center;
   background-repeat: no-repeat;
