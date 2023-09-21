@@ -19,9 +19,14 @@
     text-indent: 1rem;
 
     &::placeholder {
-      font-size: 1rem;
+      font-size: 0.9rem;
       font-family: "Mooli", sans-serif;
       color: variables.$color-cream;
+      opacity: 0.5;
+    }
+
+    @media (max-width: 600px) {
+      width: 80vw;
     }
   }
 
@@ -45,6 +50,10 @@
     &--image {
       width: 1rem;
       margin-top: 0.2rem;
+    }
+
+    @media (max-width: 600px) {
+      left: 35vw;
     }
   }
 }

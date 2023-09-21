@@ -3,9 +3,9 @@
 .books-display {
   z-index: 2;
   position: absolute;
-  top: 14%;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
 
   display: flex;
   flex-wrap: wrap;
@@ -14,5 +14,5 @@
   overflow: scroll;
 
   width: 90vw;
-  height: 38rem;
+  height: 80vh;
 }

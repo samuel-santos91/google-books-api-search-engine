@@ -33,24 +33,24 @@ const BookDetails = ({
         <div className={styles["details__info"]}>
           <p>
             <span className={styles["details__info--headers"]}>Title:</span>{" "}
-            <em>{title ? title : "Title not available"}</em>
+            <em>{title ? title : "Not available"}</em>
           </p>
           <p>
             <span className={styles["details__info--headers"]}>Author:</span>{" "}
-            <em>{author ? author.join(", ") : "Author not available"}</em>
+            <em>{author ? author.join(", ") : "Not available"}</em>
           </p>
           <p>
             <em>{description ? description : "Description not available"}</em>
           </p>
           <p>
             <span className={styles["details__info--headers"]}>Pages:</span>{" "}
-            {pages ? pages : "Number of pages not available"}
+            {pages ? pages : "Not available"}
           </p>
           <p>
             <span className={styles["details__info--headers"]}>
               Published in:
             </span>{" "}
-            {published ? published : "Publishing date not available"}
+            {published ? published : "Not available"}
           </p>
         </div>
       </div>

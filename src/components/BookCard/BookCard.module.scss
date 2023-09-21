@@ -16,6 +16,11 @@
   &--noImage {
     display: none;
   }
+
+  @media (max-width: 430px) {
+    width: 40vw;
+    height: 13rem;
+  }
 }
 
 .noImage {
@@ -43,5 +48,10 @@
 
   &__description {
     color: variables.$color-cream;
+  }
+
+  @media (max-width: 430px) {
+    width: 40vw;
+    height: 13rem;
   }
 }

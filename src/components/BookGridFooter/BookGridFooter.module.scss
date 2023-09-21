@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  justify-content: center;
+
+  &__img {
+    position: fixed;
+    bottom: 1rem;
+    width: 3rem;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+    }
+  }
+}

@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import BookCard from "../../components/BookCard/BookCard";
 import BookDetails from "../../components/BookDetails/BookDetails";
 import BookGridHeader from "../../components/BookGridHeader/BookGridHeader";
+import BookGridFooter from "../../components/BookGridFooter/BookGridFooter";
 
 import styles from "./BookGrid.module.scss";
 // import googleBooks from "../../services/books";
@@ -32,12 +33,7 @@ const BookGrid = ({ inputData, onGrid }) => {
 
   return (
     <div>
-      <BookGridHeader
-        onGridHeader={(value) => {
-          onGrid("");
-          setBooks(value);
-        }}
-      />
+      <BookGridHeader />
 
       <section className={styles["books-display"]}>
         {books &&
@@ -60,6 +56,15 @@ const BookGrid = ({ inputData, onGrid }) => {
           published={books[bookIndex]?.volumeInfo?.publishedDate}
           pages={books[bookIndex]?.volumeInfo?.pageCount}
           backdrop={(value) => setBookIndex(value)}
+        />
+      )}
+
+      {bookIndex === "" && (
+        <BookGridFooter
+          onGridFooter={(value) => {
+            onGrid("");
+            setBooks(value);
+          }}
         />
       )}
     </div>

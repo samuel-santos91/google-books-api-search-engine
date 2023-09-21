@@ -2,20 +2,7 @@
 
 .header {
   &__title {
-    margin: 3rem 0 0 0;
-    font-size: 2rem;
+    font-size: calc(1.2rem + 1vw);
     color: variables.$color-cream;
-  }
-
-  &__icon {
-    position: relative;
-    top: -.3rem;
-    left: 37rem;
-    width: 2rem;
-
-    &:hover {
-        cursor: pointer;
-        transform: scale(1.1);
-    }
   }
 }

@@ -20,5 +20,9 @@
     &--highlight {
       color: variables.$color-gold;
     }
+
+    @media (max-width: 420px) {
+      font-size: 1rem;
+    }
   }
 }
