@@ -16,3 +16,19 @@
   width: 90vw;
   height: 80vh;
 }
+
+.error-message {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: calc(2rem + 1vw);
+  color: variables.$color-gold;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}

@@ -23,6 +23,7 @@ const SearchBar = ({ onSearchBar }) => {
         onChange={inputHandler}
         type="text"
         placeholder="Search For Word or Term..."
+        name="search"
         value={searchedWord}
       />
       <button className={styles["form-section__btn"]} type="submit">

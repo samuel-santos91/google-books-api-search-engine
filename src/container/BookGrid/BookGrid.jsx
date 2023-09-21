@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import BeatLoader from "react-spinners/BeatLoader";
 
 import BookCard from "../../components/BookCard/BookCard";
 import BookDetails from "../../components/BookDetails/BookDetails";
@@ -6,29 +7,30 @@ import BookGridHeader from "../../components/BookGridHeader/BookGridHeader";
 import BookGridFooter from "../../components/BookGridFooter/BookGridFooter";
 
 import styles from "./BookGrid.module.scss";
-// import googleBooks from "../../services/books";
-
-import urlPrompt from "../../services/prompt.json";
+import googleBooks from "../../services/books";
 
 const BookGrid = ({ inputData, onGrid }) => {
   const [books, setBooks] = useState("");
   const [bookIndex, setBookIndex] = useState("");
+  const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    // const fetchData = async () => {
-    //   try {
-    //     const fetchedBooks = await googleBooks(
-    //       `https://www.googleapis.com/books/v1/volumes?q=${inputData}&maxResults=30`
-    //     );
-    //     console.log(fetchedBooks);
-    //     setBooks(fetchedBooks);
-    //   } catch (error) {
-    //     console.log(error);
-    //   }
-    // };
+    const fetchData = async () => {
+      setLoading(true);
+      try {
+        const fetchedBooks = await googleBooks(
+          `https://www.googleapis.com/books/v1/volumes?q=${inputData}&maxResults=30`
+        );
+        setBooks(fetchedBooks);
+      } catch (error) {
+        setError(error);
+      } finally {
+        setLoading(false);
+      }
+    };
 
-    // fetchData();
-    setBooks(urlPrompt.items);
+    fetchData();
   }, []);
 
   return (
@@ -47,6 +49,18 @@ const BookGrid = ({ inputData, onGrid }) => {
           ))}
       </section>
 
+      {!loading && error && (
+        <p className={styles["error-message"]}>{error.message}</p>
+      )}
+      {loading && (
+        <BeatLoader
+          size={20}
+          color="#D6AD60"
+          loading={loading}
+          className={styles["loader"]}
+        />
+      )}
+
       {bookIndex !== "" && (
         <BookDetails
           image={books[bookIndex]?.volumeInfo?.imageLinks?.thumbnail}
@@ -59,14 +73,12 @@ const BookGrid = ({ inputData, onGrid }) => {
         />
       )}
 
-      {bookIndex === "" && (
-        <BookGridFooter
-          onGridFooter={(value) => {
-            onGrid("");
-            setBooks(value);
-          }}
-        />
-      )}
+      <BookGridFooter
+        onGridFooter={(value) => {
+          onGrid("");
+          setBooks(value);
+        }}
+      />
     </div>
   );
 };
