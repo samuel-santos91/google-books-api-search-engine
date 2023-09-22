@@ -1,6 +1,7 @@
+@use "../../styles/partials/generalMixins";
+
 .footer {
-  display: flex;
-  justify-content: center;
+  @include generalMixins.displayFlex(none, center, none);
 
   &__img {
     position: fixed;
@@ -9,7 +10,7 @@
 
     &:hover {
       cursor: pointer;
-      transform: scale(1.1);
+      transform: scale(1.1); 
     }
   }
 }

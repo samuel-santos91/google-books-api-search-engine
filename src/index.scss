@@ -1,11 +1,12 @@
 @use "./styles/partials/variables";
-@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@use "./styles/partials/generalMixins";
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
 
 body {
   margin: 0;
   text-align: center;
-  font-family: 'Mooli', sans-serif;
+  font-family: variables.$font-main;
   background-image: url("./assets/images/bookshelf.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -15,14 +16,10 @@ body {
   height: 100vh;
 
   &::before {
+    @include generalMixins.absolutePositionWholeScreen();
+    z-index: -1;
     content: "";
-      background-color: variables.$color-charcoal;
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      opacity: 0.7;
-      z-index: -1;
+    background-color: variables.$color-charcoal;
+    opacity: 0.7;
   }
 }

@@ -1,34 +1,28 @@
 @use "../../styles/partials/variables";
+@use "../../styles/partials/generalMixins";
 
 .books-display {
   z-index: 2;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-  display: flex;
+  @include generalMixins.pagePosition(
+    absolute,
+    50%,
+    50%,
+    translate(-50%, -50%)
+  );
+  @include generalMixins.displayFlex(none, center, none);
   flex-wrap: wrap;
-  justify-content: center;
   gap: 1.5rem;
   overflow: scroll;
 
-  width: 90vw;
-  height: 80vh;
+  @include generalMixins.dimensions(90vw, 80vh);
 }
 
 .error-message {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translateX(-50%);
+  @include generalMixins.pagePosition(absolute, 40%, 50%, translate(-50%, 0));
   font-size: calc(2rem + 1vw);
   color: variables.$color-gold;
 }
 
 .loader {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%);
+  @include generalMixins.pagePosition(absolute, 50%, 50%, translate(-50%, 0));
 }
