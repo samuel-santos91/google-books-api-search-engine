@@ -12,6 +12,7 @@ import googleBooks from "../../services/books";
 const BookGrid = ({ inputData, onGrid }) => {
   const [books, setBooks] = useState("");
   const [bookIndex, setBookIndex] = useState("");
+  const [pageNumber, setPageNumber] = useState("0");
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
 
@@ -20,7 +21,7 @@ const BookGrid = ({ inputData, onGrid }) => {
       setLoading(true);
       try {
         const fetchedBooks = await googleBooks(
-          `https://www.googleapis.com/books/v1/volumes?q=${inputData}&maxResults=30`
+          `https://www.googleapis.com/books/v1/volumes?q=${inputData}&startIndex=${pageNumber}&maxResults=30`
         );
         setBooks(fetchedBooks);
       } catch (error) {
@@ -31,7 +32,7 @@ const BookGrid = ({ inputData, onGrid }) => {
     };
 
     fetchData();
-  }, []);
+  }, [pageNumber]);
 
   return (
     <div>
@@ -74,10 +75,11 @@ const BookGrid = ({ inputData, onGrid }) => {
       )}
 
       <BookGridFooter
-        onGridFooter={(value) => {
+        onFooterReturn={(value) => {
           onGrid("");
           setBooks(value);
         }}
+        onFooterPages={(page) => setPageNumber(page)}
       />
     </div>
   );

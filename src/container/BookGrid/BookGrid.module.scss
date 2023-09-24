@@ -25,4 +25,5 @@
 
 .loader {
   @include generalMixins.pagePosition(absolute, 50%, 50%, translate(-50%, 0));
+  z-index: 20;
 }
