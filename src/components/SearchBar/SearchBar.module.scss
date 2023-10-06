@@ -1,0 +1,50 @@
+@use "../../styles/partials/variables";
+@use "../../styles/partials/mediaQueries";
+@use "../../styles/partials/generalMixins";
+
+.form-section {
+  @include generalMixins.displayFlex(column, none, center);
+
+  position: relative;
+  top: 28vh;
+
+  &__input {
+    @include generalMixins.dimensions(30rem, 3rem);
+    background-color: variables.$color-charcoal;
+    border: 2px solid variables.$color-gold;
+    color: variables.$color-cream;
+    font-size: 1rem;
+    text-indent: 1rem;
+    border-radius: 30px;
+
+    &::placeholder {
+      font-family: variables.$font-main;
+      color: variables.$color-cream;
+      font-size: 0.9rem;
+      opacity: 0.5;
+    }
+
+    @include mediaQueries.mediaInput(80vw, none);
+  }
+
+  &__btn {
+    @include generalMixins.pagePosition(relative, -2.8rem, 13.4rem, none);
+    @include generalMixins.dimensions(2.2rem, 2.2rem);
+    background-color: variables.$color-gold;
+    border-style: none;
+    border-radius: 50%;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+      background-color: variables.$color-tan;
+    }
+
+    &--image {
+      width: 1rem;
+      margin-top: 0.2rem;
+    }
+
+    @include mediaQueries.mediaInput(none, 35vw);
+  }
+}
