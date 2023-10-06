@@ -1,8 +1,0 @@
-@use "../../styles/partials/variables";
-
-.header {
-  &__title {
-    font-size: calc(1.2rem + 1vw);
-    color: variables.$color-cream;
-  } 
-}
