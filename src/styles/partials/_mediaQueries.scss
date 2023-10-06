@@ -1,0 +1,32 @@
+// Main page
+// Search Bar
+@mixin mediaInput($width, $left) {
+  @media (max-width: 600px) {
+    width: $width;
+    left: $left;
+  }
+}
+
+// Header
+@mixin mediaTitle($font) {
+  @media (max-width: 420px) {
+    font-size: $font;
+  }
+}
+
+// Books grid
+// Book details
+@mixin mediaDetails($size, $width, $height) {
+  @media (max-width: $size) {
+    width: $width;
+    height: $height;
+  }
+}
+
+// Book card
+@mixin mediaCardDimensions($width, $height) {
+  @media (max-width: 430px) {
+    width: $width;
+    height: $height;
+  }
+}
