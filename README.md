@@ -28,4 +28,26 @@ The app uses an API to fetch all information about the books.<br><br>
 ### Book Info
 <img width="500" alt="Screenshot 2023-09-25 at 10 09 39" src="https://github.com/samuel-santos91/google-books-api-search-engine/assets/107240729/d0af01c8-7bb3-4c3e-9545-88eadc7ea012">
 
+## Built with Vite React.js
+
+## Prerequisites
+
+### Install Node JS
+Refer to https://nodejs.org/en/ to install nodejs
+
+## Cloning and Running the Application in local
+
+Clone the project into local
+
+Install all the npm packages. Go into the project folder and type the following command to install all npm packages
+
+```bash
+npm install
+```
+
+In order to run the application Type the following command
+
+```bash
+npm run dev
+```
 
