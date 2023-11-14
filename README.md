@@ -2,8 +2,15 @@
 ## Live Version
 Link: https://samuel-santos91.github.io/google-books-api-search-engine/
 
-## Preview
+## Description 
+This app searches and retrieves information about books from Google Books API;
+### Purpose
+* This project was built with the purpose of practicing REST API.
+### Tech Stack
+* React.js - Built with <strong>Vite</strong>
+* Sass - for better implementation of styling
 
+## Preview
 ### Main 
 <img width="500" alt="Screenshot 2023-09-25 at 10 07 59" src="https://github.com/samuel-santos91/google-books-api-search-engine/assets/107240729/c69babf0-5fe6-4fff-8e4f-dd9c65d95dca">
 
@@ -12,14 +19,6 @@ Link: https://samuel-santos91.github.io/google-books-api-search-engine/
 
 ### Book Info
 <img width="500" alt="Screenshot 2023-09-25 at 10 09 39" src="https://github.com/samuel-santos91/google-books-api-search-engine/assets/107240729/d0af01c8-7bb3-4c3e-9545-88eadc7ea012">
-
-## Description 
-This app searches and retrieves information about books from Google Books API;
-### Purpose
-* This project was built with the purpose of practicing REST API.
-### Tech Stack
-* React.js - Built with <strong>Vite</strong>
-* Sass - for better implementation of styling
 
 ## About
 ### Sections
