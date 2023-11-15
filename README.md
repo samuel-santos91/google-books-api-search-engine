@@ -5,7 +5,7 @@ Link: https://samuel-santos91.github.io/google-books-api-search-engine/
 ## Description 
 This app searches and retrieves information about books from Google Books API;
 ### Purpose
-* This project was built with the purpose of practicing RESTful API.
+* This project was built with the purpose of practicing RESTful API to make requests to an existing API on the internet
 ### Tech Stack
 * React.js - Built with <strong>Vite</strong>
 * Sass - for better implementation of styling
@@ -32,9 +32,6 @@ This app searches and retrieves information about books from Google Books API;
 * Pagination was added to this app, so you can fetch different indexes of the API result;  
 * On clicking on the book's image, a information window will pop up with more details about the book.
 
-## Fetch API
-The app uses an API to fetch all information about the books.<br><br>
-
 ## Prerequisites
 
 ### Install Node JS
@@ -55,4 +52,7 @@ In order to run the application Type the following command
 ```bash
 npm run dev
 ```
+## Google Books API
+* All information about this API can be found in the following webpage:
+https://developers.google.com/books/docs/v1/using#WorkingVolumes
 
