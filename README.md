@@ -5,7 +5,7 @@ Link: https://samuel-santos91.github.io/google-books-api-search-engine/
 ## Description 
 This app searches and retrieves information about books from Google Books API;
 ### Purpose
-* This project was built with the purpose of practicing REST API.
+* This project was built with the purpose of practicing RESTful API.
 ### Tech Stack
 * React.js - Built with <strong>Vite</strong>
 * Sass - for better implementation of styling
